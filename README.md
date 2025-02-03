@@ -21,7 +21,8 @@ This repository serves as a knowledge hub for fundamental and advanced computer 
 ```
 📂 Computer-Science-Notes/
  ├── 📁 Programming-Languages/
- ├── 📁 Data-Structures-Algorithms/
+ ├── 📁 Algorithms/
+ ├── 📁 Data-Structures/
  ├── 📁 System-Design/
  ├── 📁 Cybersecurity/
  ├── 📁 Operating-Systems/
