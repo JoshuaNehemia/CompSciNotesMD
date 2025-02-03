@@ -4,13 +4,9 @@ Hashing is a powerful technique used in many of the fastest known algorithms. It
 
 With the rise of **Bitcoin** and other cryptocurrencies, hashing has gained immense attention. Even people with no background in **computer science** or **finance** have probably heard about Bitcoin recently.
 
----
-
 > ❓ **DID YOU KNOW?**
 > If you have used Python, you may be familiar with a built-in data structure called `dict` (dictionary).
 > This data structure is actually based on **hashing**!
-
----
 
 ## 🔍 Applications of Hashing
 
