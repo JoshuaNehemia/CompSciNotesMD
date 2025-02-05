@@ -55,8 +55,7 @@
 
 ## 12. 🏆 Practice and Resources
 - 💡 Leetcode, Codeforces, AtCoder
-- 📚 Books: CLRS, Grokking Algorithms
-- 🎓 Online Courses: Coursera, Udemy, MIT OpenCourseWare
+- 📚 Books: Introduction to Algorithms, etc
 
 ---
 💡 **Tip:** Solve algorithmic problems daily to improve problem-solving skills. Happy Coding! 🎉
