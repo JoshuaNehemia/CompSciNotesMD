@@ -1,6 +1,4 @@
-# Introduction to Cybersecurity
-
-## Information Security and Assurance
+# Introduction to Information Security and Assurance
 
 In this digital age, we handle vast amounts of **digital data**. Since data is the new gold, ensuring **data security** is crucial. 
 
