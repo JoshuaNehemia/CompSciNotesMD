@@ -35,6 +35,7 @@ If multiple transactions are executing, locking mechanisms prevent conflicts.
 ### 4️⃣ Commit or Rollback
 ✅ Successful Transaction → COMMIT
 - If all operations succeed, changes are saved permanently.
+
 ❌ Failure → ROLLBACK
 - If any operation fails, the DBMS undoes all changes to maintain consistency.
 
