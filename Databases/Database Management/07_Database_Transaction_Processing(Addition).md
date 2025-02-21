@@ -23,8 +23,6 @@ If any step fails, the transaction is **rolled back** to its original state.
 - The transaction begins when a **user or application** initiates a database operation.  
 - Example: A customer **initiates a money transfer** via an online banking system.  
 
----
-
 ### **2️⃣ Execution of Database Operations**  
 The transaction performs **read/write** operations on the database. 
 
