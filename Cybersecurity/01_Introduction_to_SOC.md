@@ -13,9 +13,9 @@ SOC operates in multiple **tiers**, each with specific responsibilities:
 - **Tier 2 – Incident Handler**  
   - Conducts an **in-depth assessment** using security toolkits.  
   - Identifies the **scope of the attack** and determines affected systems.  
-  - If the attack involves a **zero-day vulnerability**, escalates it to **Tier 3**.  
+  - If the attack involves a more advance analysis or **zero-day vulnerability**, escalates it to **Tier 3**.  
 
-> **Nice to Know**  
+
 > **Zero-Day Attack**: A cyberattack that exploits a software vulnerability **before a fix is available**.  
 > - Since no patch exists, conventional security toolkits may be ineffective.  
 > - Requires **advanced threat-hunting techniques** to mitigate.  
@@ -52,10 +52,10 @@ SOC operates in multiple **tiers**, each with specific responsibilities:
 ## SOC Environment  
 
 ### **Primary Goal: Minimize Dwell Time**  
-> **Dwell Time**: The total time an attacker remains inside a system before detection.  
-> - A lower dwell time means **faster threat detection and response**.  
-> - Organizations measure dwell time to **assess security effectiveness**.  
-> - Drills and simulations help SOC teams **improve response times**.  
+**Dwell Time**: The total time an attacker remains inside a system before detection.  
+ - A lower dwell time means **faster threat detection and response**.  
+ - Organizations measure dwell time to **assess security effectiveness**.  
+ - Drills and simulations help SOC teams **improve response times**.  
 
 ### **Understanding Threat Actors**  
 Cybercriminals have different motives for launching attacks:  
@@ -89,6 +89,11 @@ Cybercriminals have different motives for launching attacks:
 ---
 
 ## Incident Response  
+After an attack, take the following actions:
+- Marginalize the impact of an attack by identifying the point of entry.
+- Determine the scope of the attack.
+- Contain the threat and remediate the infected host.
+- Minimize the risk of re-infection.
 
 ### **Collecting Evidence & IT Forensics**  
 - **Incident response teams** gather **artifacts** (evidence) from an attack.  
@@ -99,8 +104,99 @@ SOC follows **multiple standardized procedures** to ensure efficient security op
 
 Example: **ACME Inc. SOC Policies & Best Practices**  
 
-## Goal of SOC
+## Goal of Security Operations Center (SOC)  
 
+### Why is SOC Important to Corporations?  
+SOC is critical for maintaining **business continuity and integrity** by preventing, detecting, and responding to cybersecurity threats.  
 
+### SOC Strategies  
 
-## Challenges of a SOC
+#### **1. Developing a Proactive Strategy**  
+To stay **one step ahead** of attackers, SOC teams must actively gather intelligence and improve security measures.  
+
+##### **Key Activities for Gaining Knowledge:**  
+- **Asset Inventorying** – Keeping track of all IT assets.  
+- **Continuous Security Monitoring** – 24/7 monitoring for potential threats.  
+- **Vulnerability Scanning** – Regularly checking for security weaknesses.  
+- **Penetration Testing (Pen Test)** – Simulating cyberattacks to test defenses.  
+- **Threat Hunting** – Actively searching for hidden cyber threats.  
+
+A well-prepared SOC team can **identify and analyze attacks thoroughly**, reducing the risk of breaches.  
+
+#### **2. Minimizing the Impact of Breaches**  
+SOC reduces the time attackers spend inside a network by **prioritizing activities** such as:  
+- Focusing on **industry-specific threats**.  
+- Utilizing **threat intelligence** to predict and counteract attacks.  
+
+#### **3. Incident File Storage**  
+All security breaches are logged in **incident files** for:  
+- **Future reference**  
+- **Improving response strategies**  
+- **Strengthening cybersecurity measures**  
+
+### Mitigation Strategies  
+To block and contain cyber threats, SOC teams implement:  
+- **Blocking malicious files**  
+- **Recalling suspicious messages**  
+- **Ad-blocking measures**  
+- **Intrusion detection systems (IDS)**  
+
+### Types of SOC Approaches  
+
+#### **1. Threat-Centric SOC**  
+- Proactively hunts for **malicious threats** on networks.  
+- Leverages:  
+  - **Recently discovered vulnerabilities**  
+  - **Threat intelligence services**  
+  - **Industry reports on security anomalies**  
+
+#### **2. Compliance-Based SOC**  
+- Ensures the **organization follows industry security standards**.  
+- Detects unauthorized **configuration changes** that could lead to breaches.  
+
+#### **3. Operational-Based SOC**  
+- Monitors the **security posture** of the internal network.  
+- **Tier 2 & 3 SOC analysts** develop advanced detection techniques tailored to the organization’s infrastructure.  
+
+---
+
+## Challenges of a SOC  
+
+### 1. Technology Challenges  
+- **Growing IT infrastructure** increases **complexity** and interdependence.  
+- SOC teams struggle with **poor visibility**, making it difficult to monitor security across multiple systems.  
+- **New devices & data sources** create **inconsistent security logs**, making threat detection harder.  
+- The **increasing number of connected devices** results in more **false positives**, overwhelming analysts.  
+
+### 2. People Challenges  
+- **Human resources are the most critical asset.**  
+- **Challenges:**  
+  - Hiring and retaining **skilled cybersecurity professionals**.  
+  - SOC analysts experience **burnout** due to the high volume of alerts and repetitive tasks.  
+  - Heavy **responsibilities**, **consequences of failure**, and **time pressure** make the job demanding.  
+  - Companies must **invest in training, recruitment, and retention**.  
+  - **Effective communication** within SOC teams is **time-consuming but necessary**.  
+
+### 3. Process Challenges  
+- **Well-defined processes** help optimize SOC efficiency.  
+- **Lack of documentation** causes confusion and inefficiency.  
+- A structured **SOC process** is essential:  
+
+#### **SOC Incident Response Process:**  
+1. **Preparation** – Setting up security measures and tools.  
+2. **Identification** – Detecting and analyzing security incidents.  
+3. **Containment** – Limiting the damage caused by the attack.  
+4. **Eradication** – Removing threats from the environment.  
+5. **Recovery** – Restoring affected systems and resuming operations.  
+6. **Lessons Learned** – Evaluating the incident to improve future responses.  
+
+- **Written documentation** of security policies and response strategies is essential.  
+- **Industry standards** should be identified and followed to enhance security.  
+
+### 4. Governance & Compliance Challenges  
+- **Measuring SOC performance and efficiency** is difficult due to:  
+  - **Insufficient metrics**  
+  - **Unclear governance structures**  
+- **Privacy regulations are constantly evolving**, making it challenging to:  
+  - **Understand what data can be collected.**  
+  - **Ensure compliance with international data privacy laws.**  
