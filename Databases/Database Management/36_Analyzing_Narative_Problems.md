@@ -1,4 +1,4 @@
-# Lesson 2: Guidelines for Analyzing Narrative Problems in Conceptual Data Modeling
+# Guidelines for Analyzing Narrative Problems in Conceptual Data Modeling
 
 ---
 
